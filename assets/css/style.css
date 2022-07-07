@@ -27,6 +27,22 @@ main {
     margin: 0 20%;
 }
 
+#holiday {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: darkgreen;
+}
+
+#holiday p{
+    margin: auto;
+    width: 560px;
+    color: beige;
+    background-color: darkred;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
 nav {
     background-color: beige;
     padding: 10px;
@@ -36,16 +52,6 @@ nav {
 nav ul {
     list-style-type: none;
     text-align: center;
-}
-
-#current a{
-    color: beige;
-    background-color: green;
-}
-
-#current a:hover{
-    color: beige;
-    background-color: darkred;
 }
 
 nav li {
@@ -62,6 +68,17 @@ nav a {
 
 nav a:hover {
     color: darkred;
+}
+
+#current a{
+    color: beige;
+    background-color: green;
+    border-radius: 3px;
+}
+
+#current a:hover{
+    color: beige;
+    background-color: darkred;
 }
 
 #banner {
