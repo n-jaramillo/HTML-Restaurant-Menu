@@ -64,6 +64,17 @@ nav a:hover {
     height: auto;
 }
 
+#table-setup {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#table-setup img {
+    width: 70%;
+    height: auto;
+}
+
 .service {
     display: inline-block;
     text-align: center;
