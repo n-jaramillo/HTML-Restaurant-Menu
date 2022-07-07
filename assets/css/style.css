@@ -38,6 +38,16 @@ nav ul {
     text-align: center;
 }
 
+#current a{
+    color: beige;
+    background-color: green;
+}
+
+#current a:hover{
+    color: beige;
+    background-color: darkred;
+}
+
 nav li {
     display: inline;
 }
@@ -47,6 +57,7 @@ nav a {
     font-size: 1.6em;
     color: green;
     margin-right: 25px;
+    padding: 2px 10px;
 }
 
 nav a:hover {
